@@ -59,6 +59,11 @@ li.nav-item{
     -moz-border-radius:50%;
     border-radius:50%;
 }
+.centerCol{
+    background-image: url("images/img2.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media (max-width: 767px){
     .navbar-toggleable-md .navbar-nav .nav-item{
         display: inline-block;
