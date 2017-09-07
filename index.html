@@ -4,12 +4,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="1.js"></script>
+ 	<script type="text/javascript" src="main.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="style.css">
 </head>
 <body >
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=290802358067275";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
  	<div class="menutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 			<!--<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
@@ -45,6 +54,7 @@
 			<h1>Đào Minh Tiến</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad harum hic reiciendis! Aperiam, fugit, libero. Alias beatae dolores nostrum numquam provident! Debitis eius fugiat iste iure officia, quam vero.</p>
 			<a href="#" class="nuthite btn btn-primary">Hợp Tác</a>
+			<div class="mouse"></div>
 		</div>
 	</div>
 	<div class="knowledge">
@@ -95,5 +105,18 @@
 		</div>
 
 	</div>
+	<div class="commentSection">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-xs-center">Phản hồi</h1>
+					<div class="commentFb">
+						<div class="fb-comments" data-href="https://tiendm2506.github.io/" data-width="576" data-numposts="5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
