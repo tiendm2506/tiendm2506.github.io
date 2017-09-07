@@ -14,5 +14,10 @@
              scrollTop: $(".knowledge").offset().top
          }, 800);
      });
+     $("#gioithieu").click(function() {
+         $('html, body').animate({
+             scrollTop: $(".intro").offset().top
+         }, 800);
+     });
 })  
  
