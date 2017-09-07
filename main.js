@@ -19,5 +19,6 @@
              scrollTop: $(".intro").offset().top
          }, 800);
      });
+     new WOW().init();
 })  
  
